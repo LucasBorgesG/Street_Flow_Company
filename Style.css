@@ -221,3 +221,20 @@
         color: #fff;
         
     }
+@media only screen and (max-width: 670px){
+  .cabeçalho-link ul{
+    flex-direction: column;
+    text-align: center;
+  }
+  .cabeçalho-link li{
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 940px){
+  .Contato{
+    flex-direction: column;
+    padding: 3rem;
+    gap: 2rem;
+  }
+}
